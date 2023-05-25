@@ -1,0 +1,41 @@
+#cabecera{
+    background-color: blue;
+    border: rgb(163, 100, 100) solid 4px;
+    background-image: none;
+}
+.titulo{
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+    width: 35%;
+    margin: 15px auto;
+}
+.barra_navegacion{
+    border: darkblue solid 4px;
+    background-color: ghostwhite;
+    margin-top: 2px;
+    text-align: center;
+}
+.item_nav{
+    display: inline;
+    padding: 10px;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.barralateral{
+    border: blue solid 2px;
+    float: left;
+    height: 1500px;
+    padding-right: 16px;
+}
+.principal {
+    border: darkblue solid 2px;
+    margin-left: 75px;
+    padding-left: 80px;
+}
+.piePagina{
+    border: darkblue solid 2px;
+    clear: both;
+}

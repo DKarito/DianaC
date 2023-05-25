@@ -1,0 +1,30 @@
+.formulario{
+    background-color: blanchedalmond;
+    width: 35%;
+    margin: 25px auto;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 25px;
+}
+.item_form{
+    padding-left: 50px;
+    padding-top: 15px;
+}
+#des{
+    margin-right: 100px;
+}
+.comentario{
+    display: block;
+    padding-right: 50%;
+}
+.pie{
+    height: 120px;
+    background-color: brown;
+}
+.img_footer{
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    background-position-y: 40%;
+}

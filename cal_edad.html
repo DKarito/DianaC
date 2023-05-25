@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>Calculadora edad</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_cal_edad.css">
+</head>
+<body>
+    <div>
+        <header id="cabecera">
+            <h1 class= "titulo"> Calculadora de edad</h1>
+        </header>
+    </div>
+    <nav class="barra_navegacion">
+        <ul>
+            <li class="item_nav"><a href="index.html">Inicio</a></li>
+            <li class="item_nav"><a href="table.html">Tabla</a></li>
+            <li class="item_nav"><a href="formulario.html">Formulario</a></li>
+            <li class="item_nav"><a href="cal_edad.html">Edad</a></li>
+        </ul>
+    </nav>
+    <form class="calcular" action="">
+        <div class="item_calcular">
+            <label for="dia">Día de nacimiento:</label>
+            <input type="text" id="dia" placeholder="Ingrese su día de nacimiento">
+        </div>
+        <div class="item_calcular">
+            <label for="mes">Mes de nacimiento:</label>
+            <input type="text" id="mes" placeholder="Ingrese su mes de nacimiento">
+        </div>
+        <div class="item_calcular">
+            <label for="anio">Año de nacimiento:</label>
+            <input type="text" id="anio" placeholder="Ingrese su año de nacimiento">
+        </div>
+    </form>
+    <br>
+    <div class="resultado" id="resultado"></div>
+    <div class="boton">
+        <button class="btn" onclick="presentar()">calcular</button>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
